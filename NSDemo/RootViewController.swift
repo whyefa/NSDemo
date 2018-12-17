@@ -31,7 +31,7 @@ class RootViewController: NSViewController, GCDAsyncSocketDelegate {
         socketClient = GCDAsyncSocket(delegate: self, delegateQueue: socketQueue)
         socketClient.delegate = self
         do {
-            try socketClient.connect(toHost: "127.0.0.1", onPort: 12345)
+            try socketClient.connect(toHost: "127.0.0.1", onPort: 3333)
         } catch  {
             print("error")
         }
@@ -67,7 +67,7 @@ class RootViewController: NSViewController, GCDAsyncSocketDelegate {
     }
     
     @objc func testConnection() {
-        let msg = "Hello, nice to meet you!"
+        let msg = "Anybody there?"
         let data = msg.data(using: String.Encoding.utf8)
         let defaultData = Data()
         socketClient.write(data ?? defaultData, withTimeout: -1, tag: 0)
