@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1407F9AD21C784AB00C3D047 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1407F9AA21C7833C00C3D047 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E95A642421C6583D00E973D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A642321C6583D00E973D5 /* AppDelegate.swift */; };
 		E95A642621C6583E00E973D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95A642521C6583E00E973D5 /* Assets.xcassets */; };
 		E95A642921C6583E00E973D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95A642721C6583E00E973D5 /* MainMenu.xib */; };
@@ -14,7 +15,22 @@
 		E95A643A21C65AEE00E973D5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95A643821C65AEE00E973D5 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1407F9AE21C784AC00C3D047 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1407F9AD21C784AB00C3D047 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1407F9AA21C7833C00C3D047 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		E95A642021C6583D00E973D5 /* NSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95A642321C6583D00E973D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95A642521C6583E00E973D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,11 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1407F9A921C7833B00C3D047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1407F9AA21C7833C00C3D047 /* CocoaAsyncSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E95A641721C6583D00E973D5 = {
 			isa = PBXGroup;
 			children = (
 				E95A642221C6583D00E973D5 /* NSDemo */,
 				E95A642121C6583D00E973D5 /* Products */,
+				1407F9A921C7833B00C3D047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +80,13 @@
 		E95A642221C6583D00E973D5 /* NSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E95A643721C65AEE00E973D5 /* RootViewController.swift */,
+				E95A643821C65AEE00E973D5 /* RootViewController.xib */,
 				E95A642321C6583D00E973D5 /* AppDelegate.swift */,
 				E95A642521C6583E00E973D5 /* Assets.xcassets */,
 				E95A642721C6583E00E973D5 /* MainMenu.xib */,
 				E95A642A21C6583E00E973D5 /* Info.plist */,
 				E95A642B21C6583E00E973D5 /* NSDemo.entitlements */,
-				E95A643721C65AEE00E973D5 /* RootViewController.swift */,
-				E95A643821C65AEE00E973D5 /* RootViewController.xib */,
 			);
 			path = NSDemo;
 			sourceTree = "<group>";
@@ -76,6 +101,7 @@
 				E95A641C21C6583D00E973D5 /* Sources */,
 				E95A641D21C6583D00E973D5 /* Frameworks */,
 				E95A641E21C6583D00E973D5 /* Resources */,
+				1407F9AE21C784AC00C3D047 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +124,11 @@
 				TargetAttributes = {
 					E95A641F21C6583D00E973D5 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -275,14 +306,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NSDemo/NSDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = NSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dow.NSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -293,14 +329,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NSDemo/NSDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = NSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dow.NSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

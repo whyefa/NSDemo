@@ -1,0 +1,280 @@
+16:17:18 MSG TCP socket error 1, The remote host closed the connection
+
+16:17:25 DAT ---> [TCP] 127.0.0.1:58274 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:19:06 MSG TCP socket error 1, The remote host closed the connection
+
+16:19:12 DAT ---> [TCP] 127.0.0.1:58284 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:19:46 MSG TCP socket error 1, The remote host closed the connection
+
+16:20:03 DAT ---> [TCP] 127.0.0.1:58289 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:20:11 DAT ---> [TCP] 127.0.0.1:58289 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:22:02 DAT ---> [TCP] 127.0.0.1:58317 <5> Hello
+[48 65 6C 6C 6F ]
+
+16:26:08 MSG TCP socket error 1, The remote host closed the connection
+
+16:26:14 DAT ---> [TCP] 127.0.0.1:58366 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:26:31 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:26:34 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:26:37 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:26:38 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:27:02 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:27:55 MSG TCP socket error 1, The remote host closed the connection
+
+16:28:00 DAT ---> [TCP] 127.0.0.1:58378 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:28:05 MSG TCP socket error 1, The remote host closed the connection
+
+16:28:10 DAT ---> [TCP] 127.0.0.1:58380 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:28:15 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:28:16 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:28:17 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:28:17 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:28:17 DAT <--- [TCP] 127.0.0.1:58317 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:28:42 MSG TCP socket error 1, The remote host closed the connection
+
+16:28:51 MSG TCP socket error 1, The remote host closed the connection
+
+16:28:54 DAT ---> [TCP] 127.0.0.1:58387 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:29:02 DAT ---> [TCP] 127.0.0.1:58387 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:29:07 MSG TCP socket error 1, The remote host closed the connection
+
+16:29:12 DAT ---> [TCP] 127.0.0.1:58388 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:29:22 MSG TCP socket error 1, The remote host closed the connection
+
+16:29:25 DAT ---> [TCP] 127.0.0.1:58391 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:29:47 MSG TCP socket error 1, The remote host closed the connection
+
+16:31:50 MSG TCP socket error 1, The remote host closed the connection
+
+16:32:14 MSG TCP socket error 1, The remote host closed the connection
+
+16:32:38 MSG TCP socket error 1, The remote host closed the connection
+
+16:32:57 MSG TCP socket error 1, The remote host closed the connection
+
+16:34:29 DAT ---> [TCP] 127.0.0.1:58469 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:35:38 MSG TCP socket error 1, The remote host closed the connection
+
+16:36:04 DAT ---> [TCP] 127.0.0.1:58540 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:36:18 MSG TCP socket error 1, The remote host closed the connection
+
+16:36:21 DAT ---> [TCP] 127.0.0.1:58542 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:37:21 MSG TCP socket error 1, The remote host closed the connection
+
+16:37:36 MSG TCP socket error 1, The remote host closed the connection
+
+16:37:59 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:02 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:03 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:04 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:04 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:04 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:04 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:05 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:05 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:05 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:05 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:38:05 DAT <--- [TCP] 127.0.0.1:58582 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:22 MSG TCP socket error 1, The remote host closed the connection
+
+16:40:35 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:37 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:37 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:38 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:38 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:38 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:38 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:38 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:40:41 DAT <--- [TCP] 127.0.0.1:58620 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:41:39 MSG TCP socket error 1, The remote host closed the connection
+
+16:42:24 DAT <--- [TCP] 127.0.0.1:58633 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:47:13 MSG TCP socket error 1, The remote host closed the connection
+
+16:47:35 DAT ---> [TCP] 127.0.0.1:58703 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:47:55 MSG stop UDP server!
+
+16:48:09 DAT ---> [TCP] 127.0.0.1:58703 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:49:59 MSG TCP socket error 1, The remote host closed the connection
+
+16:50:11 DAT ---> [TCP] 127.0.0.1:58817 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:52:17 MSG TCP socket error 1, The remote host closed the connection
+
+16:53:53 MSG TCP socket error 1, The remote host closed the connection
+
+16:54:23 MSG TCP socket error 1, The remote host closed the connection
+
+16:54:52 MSG TCP socket error 1, The remote host closed the connection
+
+16:55:00 DAT ---> [TCP] 127.0.0.1:58865 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:55:14 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:26 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:29 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:30 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:30 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:30 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:42 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:42 DAT <--- [TCP] 127.0.0.1:58865 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:55:46 DAT ---> [TCP] 127.0.0.1:58865 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:57:21 MSG TCP socket error 1, The remote host closed the connection
+
+16:57:26 DAT ---> [TCP] 127.0.0.1:58880 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:57:38 DAT ---> [TCP] 127.0.0.1:58880 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:57:47 MSG TCP socket error 1, The remote host closed the connection
+
+16:57:56 MSG TCP socket error 1, The remote host closed the connection
+
+16:58:04 DAT <--- [TCP] 127.0.0.1:58883 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:58:04 DAT <--- [TCP] 127.0.0.1:58883 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:58:04 DAT <--- [TCP] 127.0.0.1:58883 <16> nice to meet you
+[6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 ]
+
+16:58:07 DAT ---> [TCP] 127.0.0.1:58883 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:58:56 DAT <--- [TCP] 127.0.0.1:58883 <9> I get you
+[49 20 67 65 74 20 79 6F 75 ]
+
+16:59:03 DAT <--- [TCP] 127.0.0.1:58883 <9> I get you
+[49 20 67 65 74 20 79 6F 75 ]
+
+16:59:06 DAT <--- [TCP] 127.0.0.1:58883 <9> I get you
+[49 20 67 65 74 20 79 6F 75 ]
+
+16:59:09 DAT ---> [TCP] 127.0.0.1:58883 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:59:20 DAT ---> [TCP] 127.0.0.1:58883 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+16:59:32 DAT ---> [TCP] 127.0.0.1:58883 <24> Hello, nice to meet you!
+[48 65 6C 6C 6F 2C 20 6E 69 63 65 20 74 6F 20 6D 65 65 74 20 79 6F 75 21 ]
+
+17:04:25 MSG TCP socket error 1, The remote host closed the connection
+
