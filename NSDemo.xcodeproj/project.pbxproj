@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1407F9AD21C784AB00C3D047 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1407F9AA21C7833C00C3D047 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1407F9B321C88A3100C3D047 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407F9B121C88A3100C3D047 /* SocketViewController.swift */; };
+		1407F9B421C88A3100C3D047 /* SocketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1407F9B221C88A3100C3D047 /* SocketViewController.xib */; };
+		1407F9C321C8E53800C3D047 /* RCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407F9C221C8E53800C3D047 /* RCTextField.swift */; };
+		1407F9C621C8F61100C3D047 /* RCTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407F9C521C8F61100C3D047 /* RCTextFieldCell.swift */; };
 		E95A642421C6583D00E973D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A642321C6583D00E973D5 /* AppDelegate.swift */; };
 		E95A642621C6583E00E973D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95A642521C6583E00E973D5 /* Assets.xcassets */; };
 		E95A642921C6583E00E973D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95A642721C6583E00E973D5 /* MainMenu.xib */; };
@@ -31,6 +35,10 @@
 
 /* Begin PBXFileReference section */
 		1407F9AA21C7833C00C3D047 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		1407F9B121C88A3100C3D047 /* SocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
+		1407F9B221C88A3100C3D047 /* SocketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocketViewController.xib; sourceTree = "<group>"; };
+		1407F9C221C8E53800C3D047 /* RCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTextField.swift; sourceTree = "<group>"; };
+		1407F9C521C8F61100C3D047 /* RCTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTextFieldCell.swift; sourceTree = "<group>"; };
 		E95A642021C6583D00E973D5 /* NSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95A642321C6583D00E973D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95A642521C6583E00E973D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +68,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1407F9B521C88A3B00C3D047 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				E95A643721C65AEE00E973D5 /* RootViewController.swift */,
+				E95A643821C65AEE00E973D5 /* RootViewController.xib */,
+				1407F9B121C88A3100C3D047 /* SocketViewController.swift */,
+				1407F9B221C88A3100C3D047 /* SocketViewController.xib */,
+				1407F9C221C8E53800C3D047 /* RCTextField.swift */,
+				1407F9C521C8F61100C3D047 /* RCTextFieldCell.swift */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		E95A641721C6583D00E973D5 = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +101,7 @@
 		E95A642221C6583D00E973D5 /* NSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E95A643721C65AEE00E973D5 /* RootViewController.swift */,
-				E95A643821C65AEE00E973D5 /* RootViewController.xib */,
+				1407F9B521C88A3B00C3D047 /* res */,
 				E95A642321C6583D00E973D5 /* AppDelegate.swift */,
 				E95A642521C6583E00E973D5 /* Assets.xcassets */,
 				E95A642721C6583E00E973D5 /* MainMenu.xib */,
@@ -156,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95A642621C6583E00E973D5 /* Assets.xcassets in Resources */,
+				1407F9B421C88A3100C3D047 /* SocketViewController.xib in Resources */,
 				E95A642921C6583E00E973D5 /* MainMenu.xib in Resources */,
 				E95A643A21C65AEE00E973D5 /* RootViewController.xib in Resources */,
 			);
@@ -168,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1407F9C621C8F61100C3D047 /* RCTextFieldCell.swift in Sources */,
 				E95A642421C6583D00E973D5 /* AppDelegate.swift in Sources */,
+				1407F9B321C88A3100C3D047 /* SocketViewController.swift in Sources */,
+				1407F9C321C8E53800C3D047 /* RCTextField.swift in Sources */,
 				E95A643921C65AEE00E973D5 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
